@@ -1,0 +1,26 @@
+# ===== Python 缓存与编译文件 =====
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# ===== 虚拟环境 =====
+venv/
+.venv/
+env/
+_venv_test/
+
+# ===== 日志与临时文件 =====
+*.log
+
+# ===== 自测运行时生成的截图（可自行重新生成，不入库） =====
+assets/self_test_output.jpg
+assets/snapshot.jpg
+
+# ===== IDE / 编辑器 =====
+.idea/
+.vscode/
+*.swp
+
+# ===== 操作系统 =====
+.DS_Store
+Thumbs.db

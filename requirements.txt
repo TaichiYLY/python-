@@ -1,0 +1,21 @@
+# ============================================================
+# 实时手势识别项目 - Python 依赖
+# 安装命令：
+#     pip install -r requirements.txt
+# 国内网络较慢时，可使用清华镜像：
+#     pip install -r requirements.txt -i https://pypi.tuna.tsinghua.edu.cn/simple
+# ============================================================
+
+# OpenCV：摄像头采集、图像处理、窗口显示
+opencv-python>=4.8
+
+# MediaPipe：手部 21 个关键点检测（本项目使用官方 Tasks API）
+# 0.10.9 及以上版本均支持；pip 会根据当前 Python 版本自动选择：
+#   Python 3.9~3.12 通常安装 0.10.x，Python 3.13 安装 1.x
+mediapipe>=0.10.9
+
+# NumPy：图像数组运算（OpenCV 会自动带上，显式列出方便排查）
+numpy>=1.24
+
+# Pillow：用于在视频画面上绘制中文文字（cv2.putText 不支持中文）
+Pillow>=9.0
