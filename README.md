@@ -16,6 +16,9 @@
 
 ## 效果演示
 
+> 📖 新手入门建议配合阅读 **[LEARNING_GUIDE.md](LEARNING_GUIDE.md)（初学者学习指南）**：
+> 从图像基础、21 个关键点讲起，对 `main.py` 逐段精讲，并配有 8 个动手练习。
+
 静态图片自测效果（`assets/demo_result.jpg`）：
 
 ![手势识别效果](assets/demo_result.jpg)
@@ -138,6 +141,7 @@ python手势识别/
 ├── self_test.bat            # Windows 一键自测
 ├── main.py                  # 主程序：摄像头采集、检测、绘制、显示
 ├── self_test.py             # 自测脚本：环境、模型、逻辑、摄像头检查
+├── LEARNING_GUIDE.md        # 初学者学习指南（原理逐段精讲 + 动手练习）
 ├── requirements.txt         # pip 依赖列表
 ├── models/
 │   └── hand_landmarker.task # MediaPipe 手部关键点模型
